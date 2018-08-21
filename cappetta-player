@@ -128,7 +128,7 @@
                     collaboration: {
                         isEnabled: false
                     },
-                    inputs: jsonInputs,
+                    inputs: jsonInputs,  //changed from null
                     annotations: null,
                     navigation: {
                         isFixed: true,
