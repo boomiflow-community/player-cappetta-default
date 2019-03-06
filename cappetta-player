@@ -172,7 +172,7 @@
 
     <script src="https://assets.manywho.com/js/loader.min.js"></script>
     <style>
-    /*Logo*/
+    /*Boomi logo from URL with small visible label font*/
     .mw-bs .navbar-brand {
             background: url(https://files-manywho-com.s3.amazonaws.com/038d12aa-2256-455c-9b4e-8e620970e451/Atom-WordMark-clr.png);
             background-position: left center;
@@ -187,6 +187,15 @@
             font-weight: bold;
             background-size: contain;
         }
+        
+        /*Removes the extra 15 pixles left padding on columns container*/
+        @media (min-width: 558px) {
+            .mw-bs .mw-horizontal_flow>.row> :first-child {
+                padding-left: 0px;
+                border: 1px solid purple;
+            }
+        }
+        
     </style>
 </body>
 </html>
